@@ -621,3 +621,7 @@ footer h3{
     background-color: #FFB1C9;
     border-radius: 0px 0px 90px 90px;
 }
+
+.overflow {
+    overflow-y: hidden;
+}
