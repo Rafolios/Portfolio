@@ -334,7 +334,7 @@ footer h3{
 .containereditorial {
     display: flex;
     justify-content: center;
-    width: 350px;
+    width: 500px;
     flex-direction: column;
     padding: 10px 0px;
     background-color: #FFB1C9;
