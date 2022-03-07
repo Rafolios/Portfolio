@@ -1,0 +1,521 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #F999B7;
+    overflow-x: hidden;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Header */
+header{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #F2789F;
+    align-items: center;
+}
+
+.gridsection{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logocalango{
+    height: 60px;
+    
+}
+
+.navindices{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navindices a{
+    margin: 0px 20px 0px 20px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navsocial{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navsocial img{
+    height: 30px;
+    margin: 0px 15px 0px 15px;
+}
+
+/* Slider */
+
+.conteinerslider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.conteudo{
+    height: 660px;
+    width: 530px;
+}
+
+.conteudo .imagens{
+    height: 100%;
+    width: 100%;
+    position:relative;
+}
+
+.imagens img{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.imagens img.top:hover {
+    opacity:0;
+  }
+
+/* Section Apresentação */
+
+.containerapresentacao{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.gridapresentacao{
+    display: flex;
+    justify-content: center;
+    background-color: #FFB1C9;
+    height: 660px;
+    width: 110%;
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+}
+
+.textoapresentacao{
+    margin: 5% 30px 5% 0px;
+}
+
+.itemapresentacao{
+    display: flex;
+    width: 80vw;
+    transform: rotate(-2deg);
+    justify-content: space-between;
+}
+
+.itemapresentacao img{
+    height: 660px;
+}
+
+.itemapresentacao h1{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 35px;
+    margin: 15px 0px 15px 0px;
+}
+
+.itemapresentacao h2{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28px;
+    margin: 0px 0px 15px 0px;
+}
+
+/* Footer */
+
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    background-color: #F2789F;
+}
+
+footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
+/* Pagina de Contato */
+
+.titulopagina{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.infocontato{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FFB1C9;
+    width: 80vw;
+    padding: 10px 10px 10px 10vw;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.infocontato h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    text-align: start;
+}
+
+.containerinfoinsta{
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.infoinsta{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FFB1C9;
+    width: 50vw;
+    padding: 10px 10vw 10px 10px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.infoinstatexto{
+    padding-left: 3vw;
+    align-items: center;
+    display: grid;
+}
+
+.infoinstatexto h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-align: start;
+}
+
+.infoinstatexto a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    text-align: start;
+}
+
+.infoinstatexto h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    text-align: start;
+}
+
+.containerinfozap{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.infozap{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FFB1C9;
+    width: 45vw;
+    padding: 10px 10px 10px 10vw;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.infozaptexto{
+    padding-left: 3vw;
+    align-items: center;
+    display: grid;
+}
+
+.infozaptexto h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-align: start;
+}
+
+.infozaptexto h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    text-align: start;
+}
+
+.infogmail{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FFB1C9;
+    width: 50vw;
+    padding: 10px 10vw 10px 10px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+/* Pagina Trabalhos */
+
+.containertrabalhos {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containertrabalhos h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    text-align: start;
+}
+
+.titulotrabalho {
+    display: flex;
+    justify-content: flex-start;
+    width: 80vw;
+    padding: 20px 0px;
+}
+
+.editoriais {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.containereditorial {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    flex-direction: column;
+    padding: 10px 0px;
+    background-color: #FFB1C9;
+    border-radius: 5px;
+}
+
+.containercartotecnico {
+    display: flex;
+    justify-content: center;
+    width: 190px;
+    flex-direction: column;
+    padding: 10px 0px;
+    background-color: #FFB1C9;
+    border-radius: 5px;
+}
+
+.containereditorial img{
+    height: 225px;
+}
+
+.containercartotecnico img{
+    height: 190px;
+}
+
+.containervideo img{
+    height: 132px;
+}
+
+.containervideo {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    flex-direction: column;
+    padding: 10px 0px;
+    background-color: #FFB1C9;
+    border-radius: 5px;
+}
+
+
+.containereditorial h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.containercartotecnico h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.containervideo h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.butdetalhes {
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+}
+
+.butdetalhes a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    width: min-content;
+    padding: 10px;
+    background-color:#FF76A2;
+    border-radius: 5px;
+}
+
+/* Pagina Sobremim */
+
+.gridquemsoueu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerquemsoueu {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80vw;
+}
+
+.infoquemsoueutexto{
+    padding-left: 3vw;
+    align-items: center;
+    display: grid;
+}
+
+.infoquemsoueutexto h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-align: start;
+}
+
+.infoquemsoueutexto h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: start;
+    width: 470px;
+}
+
+.infoquemsoueu{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FFB1C9;
+    width: 50vw;
+    padding: 10px 51vw 10px 10px;
+    border-radius: 90px 0px 0px 0px;
+    margin-left: 110px;
+}
+
+.carrossel img{
+    width: 500px;
+    border-radius: 90px 90px 0px 0px;
+}
+
+.carrosselobjetivos img{
+    width: 500px;
+    border-radius: 0px 0px 90px 90px;
+}
+
+.gridobjetivos {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.containerobjetivos {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80vw;
+}
+
+.infoobjetivostexto {
+    padding-left: 3vw;
+    align-items: center;
+    display: grid;
+}
+
+.infoobjetivos h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-align: start;
+}
+
+.infoobjetivos h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: start;
+    width: 500px;
+}
+
+.infoobjetivos {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FFB1C9;
+    width: 50vw;
+    padding: 10px 0px 10px 7vw;
+    border-radius: 0px 0px 90px 0px;
+    margin-right: 110px;
+}
